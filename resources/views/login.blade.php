@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Member - BengkelPro</title>
+    <title>Login Member - Alpino Jakarta</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
@@ -228,7 +228,7 @@
             <div style="font-size: 40px; color: #ff8e53; margin-bottom: 10px;">
                 <i class="fas fa-tools"></i>
             </div>
-            <h2>BengkelPro</h2>
+            <h2>Alpino Jakarta</h2>
             <p>Silakan login untuk booking service</p>
         </div>
 
