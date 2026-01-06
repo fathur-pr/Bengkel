@@ -11,13 +11,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        public function boot()
-    {
-        // Tambahkan kode ini:
-        if($this->app->environment('production')) {
-            \Illuminate\Support\Facades\URL::forceScheme('https');
-        }
-    }
+        // Biarkan kosong
     }
 
     /**
@@ -25,6 +19,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Kode Force HTTPS ditaruh di sini
+        if($this->app->environment('production')) {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
     }
 }
