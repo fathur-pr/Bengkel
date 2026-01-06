@@ -43,7 +43,7 @@
 <body>
 
     <div class="navbar">
-        <div class="brand"><i class="fas fa-wrench"></i> BengkelPro Member</div>
+        <div class="brand"><i class="fas fa-wrench"></i> Member Alpino</div>
         <div class="user-info">
             Halo, {{ Auth::user()->name }} 
             <form action="{{ route('logout') }}" method="POST" style="display:inline; margin-left: 10px;">
@@ -55,15 +55,15 @@
 
     <div class="container">
         <div class="welcome-card">
-            <h1>Mobil Anda Bermasalah?</h1>
-            <p>Jangan tunggu sampai mogok. Booking servis sekarang, bebas antri!</p>
+            <h1>Suara Mobil Anda Ingin Lebih Keren Dan Pembuangan gas nya lebih efisien?</h1>
+            <p> Booking di Alpino, bebas antri!</p>
             <a href="{{ route('booking.create') }}" class="btn-booking">
-                <i class="fas fa-calendar-plus"></i> Booking Servis Baru
+                <i class="fas fa-calendar-plus"></i> Booking Pemasangan
             </a>
         </div>
 
         <div class="history-section">
-            <h3><i class="fas fa-history"></i> Riwayat Servis Saya</h3>
+            <h3><i class="fas fa-history"></i> Riwayat Booking</h3>
             <table>
                 <thead>
                     <tr>
@@ -97,7 +97,7 @@
                     @empty
                     <tr>
                         <td colspan="4" style="text-align:center; color: #aaa; padding: 30px;">
-                            Belum ada riwayat booking. Yuk servis sekarang!
+                            Belum ada riwayat booking. Yuk booking sekarang!
                         </td>
                     </tr>
                     @endforelse
